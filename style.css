@@ -3,10 +3,7 @@
     padding: 0%;
     font-family: monospace;
     overflow: hidden;
-    
-    
 }
-
 body{
     background-color: #FDFFFC;
 }
@@ -22,7 +19,7 @@ footer{
     margin: 0%;
 }
 
-.prodape{
+#prodape{
     margin: 0%;
     text-decoration: none;
     font-size: 0.8em;
@@ -31,20 +28,14 @@ a{
     text-decoration: none;  
 }
 hr.hrbody{
+    width: 50%;
+    position: relative;
+    left: 30px;
     border: none;
     height: 1px;
     background-color: rgb(203, 203, 203);
-    width: 50%;
-    text-align: center;
-    position: relative;
-    left: 50px;
 }
 
-hr{
-    border: none;
-    height: 1px;
-    background-color: rgb(203, 203, 203);
-}
 header{
     color: #FDFFFC;
     background-color: #011627;
@@ -54,9 +45,6 @@ header{
 
 }
 form{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
     display: inline-flex;
     float: right;
     border: none;
@@ -68,7 +56,7 @@ input{
     height: 30px;
     float: right;
     position: relative;
-    background-color: rgb(223, 223, 223);
+    background-color:    color: #FDFFFC;
     padding-left: 10px;
     
 }
@@ -81,15 +69,10 @@ aside{
     width: 250px;
     text-align: center;
     margin: 0px 5px;
-    
+    float:right; 
 }
 
-
-aside{
-    float:right;
-}
-
-h2{
+h3{
     color:#d7d4d4 ;
     font-size: 30px;
     padding: 10px;
@@ -135,7 +118,7 @@ section{
     overflow: auto;
     height: 100vh;
 }
-h3, img{
+h2, img{
     display: inline-flex;
     align-items: center;
     float: left;
@@ -149,7 +132,7 @@ p.littleText{
     
 
 }
-h3{
+h2{
     color: #011627;
 
 }
