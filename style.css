@@ -28,15 +28,16 @@ a{
 
 header{
     color: #EDF2F4;
-    background-color:#1B1B1E;
     position: relative;
-    height: 8vh;
-
+    height: 10vh;
 }
 
 h1{
     color: #EDF2F4;
+    background-color: #3185FC;
+    padding: 5px;
     position: absolute;
+    border-radius: 5px;
     top: 50%;
     left:  20px;
     transform: translate(0%, -50%);
@@ -45,16 +46,11 @@ h1{
 
 form{
     border: none;
-    position: absolute;
-    top: 50%;
-    right:  20px;
-    transform: translate(0%, -50%);
-
 }
 input{
     border-radius: 50px;
     border: none;
-    width: 30vw;
+    width: 200px;
     height: 30px;
     background-color: #FDFFFC;   
     color: #000000;
@@ -64,24 +60,25 @@ input{
 
 
 nav{
-    margin: 0px;
+    margin: auto;
     padding: 0;
-    background-image: linear-gradient(to top, #1B1B1E, #313136);
     position: relative;
-    height: 4vh;
-    overflow: hidden;
+    width:90%;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
 li{
     display: inline-block;
-    width: 24%;
+    width: 19%;
     text-align: center;
-    color: #EDF2F4;
+    color: #1D3461;
     margin: 0px, 50px;
     line-height: 4vh;
     
 }
 section{
     overflow: hidden;
+    background-color: #ffffff;
 }
 
 
@@ -89,7 +86,7 @@ section{
 article{
     margin: 5px 0px 0px 5px;
     padding: 0;
-    width: 300px;
+    width: 32%;
     height: 400px; 
     position: relative;
     background-color: #A4252C;
@@ -132,9 +129,11 @@ h2{
 aside{
     
     width: 250px;
+    background-color: #A4252C;
     text-align: center;
     margin: 0px 5px;
     float:right; 
+    
 }
 h3{
     color:#d7d4d4 ;
