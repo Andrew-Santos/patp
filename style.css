@@ -17,7 +17,8 @@ header{
     background-color: #F6E8EA;
     padding-top: 5px;
 }
-h1{
+#m5{
+    text-decoration: none;
     color: #EDF2F4;
     background-image: linear-gradient(to bottom, #3185FC, #04369b,#3185FC);
     height: 50px;
@@ -159,5 +160,5 @@ h5{
 }
 
 #aman{
-    height: 50vh;
+    width: 100vw;
 }
