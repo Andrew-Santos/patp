@@ -81,12 +81,34 @@ svg{
     height: 85vh;
     object-fit: cover;
 }
+
+h4{
+    position: fixed;
+    color: #26C485;
+    margin-top: 10px;
+    margin-right: 50px;
+    right: 0;
+    width: 150px;
+    text-align: center;
+    font-weight: normal;
+}
+article:hover h2 {
+    color: #C14953;   
+}
+
+li:hover{
+    color: #26C485;
+    font-weight: 500;
+}
 section{
     margin-top: 10px;
     margin-left: 50px;
     width: 80%;
-    
+}
 
+aside:hover h4{
+    color: #F6E8EA;
+    font-weight: 500;
 }
 article{
     display: inline-block;
@@ -95,10 +117,10 @@ article{
     height: 300px;
     box-shadow: 1px 1px 5px gray;
     margin-right: 10px;
-    margin-bottom: 10px;
-    
-    
+    margin-bottom: 10px;    
 }
+
+
 .photoparty{
     position: relative;
     width: 100%;
@@ -147,7 +169,7 @@ h2{
     }
 
     section{
-        width: 100%;
+        width: 99%;
         margin: 05px;
     
     }
