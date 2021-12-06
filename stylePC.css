@@ -73,7 +73,7 @@ svg{
 }
 #patrocinado{
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 50px;
     border-radius: 5px;
     position: fixed;
     right: 0;
@@ -81,13 +81,21 @@ svg{
     height: 85vh;
     object-fit: cover;
 }
-article{
+section{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 50px;
+    width: 80%;
+    
+
+}
+article{
+    display: inline-block;
     border-radius: 3px;
-    width: 300px;
+    width: 320px;
     height: 300px;
     box-shadow: 1px 1px 5px gray;
+    margin-right: 10px;
+    margin-bottom: 10px;
     
     
 }
@@ -100,9 +108,10 @@ article{
 }
 footer{
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
+    bottom: 1;
+    width: 100%;
+    background-color: black;
+    text-align: center;
 }
 h2{
     width: 100%;
@@ -113,9 +122,39 @@ h2{
 }
 
 .refresh{
-    padding-right: 5px;
+    display: inline-block;
     font-size: 0.5em;
+    width: 98%;
     text-align: end;
+
+}
+
+@media (max-width:792px){
+
+    li{
+        font-size: 50%;
+    }
+    input{
+        width: 100%;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width:915px){
+
+    aside{
+        display: none;
+    }
+
+    section{
+        width: 100%;
+        margin: 05px;
+    
+    }
+
+    article{
+        width: 45%;
+    }
 }
 
 
