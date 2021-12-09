@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function calcular(){
+        var quantidade = parseInt(document.querySelector('#quantidade').value)
+        var preço = parseFloat(document.querySelector('#preço').value)
+        var total = quantidade*preço
+
+        document.querySelector('#total').value = total
+        
+        }
+    </script>
+</head>
+<body>
+
+    <form method="post" oninput="calcular()">
+        <input type="text" placeholder="Produto" id="produto"><br>
+        Quantidade: <input type="number" name="quantidade" id="quantidade"style="border: none;" min="1"><br>
+        Preço: R$<input type="number" name="preço" id="preço" value="1500" readonly style="border: none;"><br>
+        Valor total: R$<input type="number" name="total" id="total"readonly style="border: none;"><br>
+        <input type="submit" value="Enviar" >
+
+    </form>
+    
+</body>
+</html>
